@@ -21,6 +21,7 @@
 		6ED9CFD9197384E700B77AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED9CFBB197384E700B77AF2 /* UIKit.framework */; };
 		6ED9CFE1197384E700B77AF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9CFDF197384E700B77AF2 /* InfoPlist.strings */; };
 		6ED9CFE3197384E700B77AF2 /* LearnGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9CFE2197384E700B77AF2 /* LearnGitTests.m */; };
+		6ED9CFF11973A4E500B77AF2 /* CEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9CFF01973A4E500B77AF2 /* CEMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6ED9CFDE197384E700B77AF2 /* LearnGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnGitTests-Info.plist"; sourceTree = "<group>"; };
 		6ED9CFE0197384E700B77AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ED9CFE2197384E700B77AF2 /* LearnGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTests.m; sourceTree = "<group>"; };
+		6ED9CFEF1973A4E500B77AF2 /* CEMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMainViewController.h; sourceTree = "<group>"; };
+		6ED9CFF01973A4E500B77AF2 /* CEMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6ED9CFCD197384E700B77AF2 /* CEViewController.m */,
 				6ED9CFCF197384E700B77AF2 /* Images.xcassets */,
 				6ED9CFBE197384E700B77AF2 /* Supporting Files */,
+				6ED9CFEF1973A4E500B77AF2 /* CEMainViewController.h */,
+				6ED9CFF01973A4E500B77AF2 /* CEMainViewController.m */,
 			);
 			path = LearnGit;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ED9CFC8197384E700B77AF2 /* CEAppDelegate.m in Sources */,
+				6ED9CFF11973A4E500B77AF2 /* CEMainViewController.m in Sources */,
 				6ED9CFC4197384E700B77AF2 /* main.m in Sources */,
 				6ED9CFCE197384E700B77AF2 /* CEViewController.m in Sources */,
 			);
@@ -459,6 +465,7 @@
 				6ED9CFE8197384E700B77AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ED9CFE9197384E700B77AF2 /* Build configuration list for PBXNativeTarget "LearnGitTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				6ED9CFEB197384E700B77AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
